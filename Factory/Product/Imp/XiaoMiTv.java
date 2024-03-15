@@ -1,6 +1,6 @@
-package Foctory.Product.Imp;
+package Factory.Product.Imp;
 
-import Foctory.Product.Tv;
+import Factory.Product.Tv;
 
 public class XiaoMiTv extends Tv {
     @Override

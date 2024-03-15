@@ -1,6 +1,6 @@
-package Foctory.Product.Imp;
+package Factory.Product.Imp;
 
-import Foctory.Product.Phone;
+import Factory.Product.Phone;
 
 public class HaiXiPhone extends Phone {
     @Override

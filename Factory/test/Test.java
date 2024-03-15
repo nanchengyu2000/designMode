@@ -1,9 +1,8 @@
-package Foctory.test;
+package Factory.test;
 
-import Foctory.Foctory;
-import Foctory.Product.Phone;
-import Foctory.Product.Tv;
-import Foctory.XiaomiFoctory;
+import Factory.Factory;
+import Factory.Product.Phone;
+import Factory.XiaomiFactory;
 
 public class Test {
     public static  void main(String[] args) {
@@ -16,7 +15,7 @@ public class Test {
         * 这部分测试我只是对工厂使用了xml,而工厂里面的创建产品我使用的是new
         *
         * */
-        XiaomiFoctory foctory=(XiaomiFoctory)Foctory.getBean("XiaomiFoctory");
+        XiaomiFactory foctory=(XiaomiFactory) Factory.getBean("XiaomiFactory");
         Phone phone = foctory.getPhone();
         phone.Call();
 

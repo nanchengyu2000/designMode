@@ -1,4 +1,4 @@
-package Foctory.Product;
+package Factory.Product;
 
 public abstract class Tv {
     public void shut(){

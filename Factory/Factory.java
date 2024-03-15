@@ -1,12 +1,8 @@
-package Foctory;
-
-import Foctory.Product.Imp.HaiXiTv;
-import Foctory.Product.Imp.HaierTv;
-import Foctory.Product.Tv;
+package Factory;
 
 import java.util.List;
 
-public class Foctory {
+public class Factory {
     /*
     * 第一种方法 按照用户需求实现简单工厂模式
     * */
@@ -59,15 +55,15 @@ public class Foctory {
     /*
     * 第四种方法  通过抽象工厂+配置文件+反射实现工厂模式
     * */
-    public static AbstractFoctory getBean(String foctoryname){
-        AbstractFoctory foctory=null;
+    public static AbstractFactory getBean(String foctoryname){
+        AbstractFactory foctory=null;
         List<String> beans = ReadXML.readFactorise();
         try {
             for (String bean : beans) {
                 Class beanClass = Class.forName(bean);
                 String simpleName = beanClass.getSimpleName();
                 if (simpleName.equals(foctoryname)){
-                    foctory = (AbstractFoctory) beanClass.newInstance();
+                    foctory = (AbstractFactory) beanClass.newInstance();
                     return foctory;
                 }
 

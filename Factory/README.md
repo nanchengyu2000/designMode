@@ -92,7 +92,7 @@ public static Tv getBean(){
 ```XML
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
-    <branName>Foctory.Product.Imp.HaierTv</branName>
+    <branName>Factory.Product.Imp.HaierTv</branName>
 </config>
 ```
 
@@ -173,8 +173,8 @@ public class XiaomiFoctory implements AbstractFoctory{
 ```XML
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
-    <foctoryBean>Foctory.XiaomiFoctory</foctoryBean>
-    <foctoryBean>Foctory.HaixiFoctory</foctoryBean>
+    <foctoryBean>Factory.XiaomiFactoryFactory.XiaomiFactory</foctoryBean>
+    <foctoryBean>Factory.HaixiFactoryFactory.HaixiFactory</foctoryBean>
 </config>
 ```
 
