@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <factory name="Foctory.XiaomiFoctory">
+        <tv>Foctory.Product.Imp.HaiXiTv</tv>
+        <phone>Foctory.Product.Imp.XiaoMiPhone</phone>
+    </factory>
+    <factory name="Foctory.HaixiFoctory">
+        <tv>Foctory.Product.Imp.HaiXiTv</tv>
+        <phone>Foctory.Product.Imp.HaiXiPhone</phone>
+    </factory>
+</config>
