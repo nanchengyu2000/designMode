@@ -51,7 +51,6 @@ public class Factory {
 //        return  tv;
 //    }
 
-
     /*
     * 第四种方法  通过抽象工厂+配置文件+反射实现工厂模式
     * */

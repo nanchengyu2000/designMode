@@ -74,7 +74,7 @@ public static Tv getBean(String name){     //通过用户输入的名称通过�
 ```java
 public static Tv getBean(){
         Tv tv=null;
-        String name = ReadXML.readName("实现/config.xml","branName");
+        String name = Util.ReadXML.readName("实现/config.xml","branName");
         try {
             Class aClass = Class.forName(name);
             tv = (Tv) aClass.newInstance();
@@ -123,7 +123,7 @@ public static Tv getBean(){
 ```java
 public static AbstractFoctory getBean(String foctoryname){
         AbstractFoctory foctory=null;
-        List<String> beans = ReadXML.readFactorise();
+        List<String> beans = Util.ReadXML.readFactorise();
         try {
             for (String bean : beans) {
                 Class beanClass = Class.forName(bean);
