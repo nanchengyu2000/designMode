@@ -30,22 +30,24 @@ package Adapter;
 
 public interface Robot {
     void cry();
+
     void move();
 }
 package Adapter;
 
 public class Dog {
-    public void wang(){
+    public void wang() {
         System.out.println("狗叫");
     }
-    public void run(){
+
+    public void run() {
         System.out.println("狗跑");
     }
 }
 
 package Adapter;
 
-public class DogAdapter extends Dog implements Robot{
+public class DogAdapter extends Dog implements Robot {
     @Override
     public void cry() {
         System.out.print("机器人在模仿");
@@ -79,16 +81,18 @@ package Adapter;
 
 public interface Robot {
     void cry();
+
     void move();
 }
 
 package Adapter;
 
 public class Bird {
-    public void call(){
+    public void call() {
         System.out.println("小鸟叫");
     }
-    public void fly(){
+
+    public void fly() {
         System.out.println("小鸟飞");
     }
 }
@@ -96,20 +100,22 @@ public class Bird {
 package Adapter;
 
 public class Dog {
-    public void wang(){
+    public void wang() {
         System.out.println("狗叫");
     }
-    public void run(){
+
+    public void run() {
         System.out.println("狗在跑");
     }
 }
 
 package Adapter;
 
-public class MingleAdapter implements Robot{   //采用组合的方式
+public class MingleAdapter implements Robot {   //采用组合的方式
 
-    private Bird bird=new Bird();
-    private Dog dog=new Dog();
+    private Bird bird = new Bird();
+    private Dog dog = new Dog();
+
     @Override
     public void cry() {
         System.out.print("机器人在模仿");
