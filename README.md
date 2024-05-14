@@ -1,4 +1,4 @@
-## 单例模式
+## [单例模式](https://github.com/nanchengyu2000/designMode/tree/main/Singleton)
 
 
 
