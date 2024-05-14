@@ -2,31 +2,31 @@
 
 
 
-## 原型模式
+## [原型模式](https://github.com/nanchengyu2000/designMode/tree/main/Prototype)
 
 
 
-## 简单工厂模式+工厂模式
+## [简单工厂模式+工厂模式](https://github.com/nanchengyu2000/designMode/tree/main/Factory)
 
 
 
-## 建造者模式
+## [建造者模式](https://github.com/nanchengyu2000/designMode/tree/main/Builder)
 
 
 
-## 适配器模式
+## [适配器模式](https://github.com/nanchengyu2000/designMode/tree/main/Adapter)
 
 
 
-## 桥接模式
+## [桥接模式](https://github.com/nanchengyu2000/designMode/tree/main/bridging)
 
 
 
-## 组合模式
+## [组合模式](https://github.com/nanchengyu2000/designMode/tree/main/Combination)
 
 
 
-## 装饰模式
+## [装饰模式](https://github.com/nanchengyu2000/designMode/tree/main/Decorate)
 
 
 
@@ -34,12 +34,13 @@
 
 
 
-## 享元模式
+## [享元模式](https://github.com/nanchengyu2000/designMode/tree/main/Flyweight)
 
 
 
-## 代理模式
+## [代理模式](https://github.com/nanchengyu2000/designMode/tree/main/Agency)
 
 
 
-## 指责链模式
+## [指责链模式](https://github.com/nanchengyu2000/designMode/tree/main/ChainOfBlame)
+
