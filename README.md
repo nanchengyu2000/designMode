@@ -44,3 +44,6 @@
 
 ## [指责链模式](https://github.com/nanchengyu2000/designMode/tree/main/ChainOfBlame)
 
+
+
+## [中介者模式](https://github.com/nanchengyu2000/designMode/tree/main/Mediator)
